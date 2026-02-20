@@ -5,6 +5,7 @@ import Home from './Home';
 import Signup from './Signup';
 import Login from './Login'; 
 import Product from './Product';
+import Todo from './Todo';
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
         <Link to="/form">Form</Link> |{" "}
         <Link to="/signup">Signup</Link> |{" "}
         <Link to="/login">Login</Link>
+        <Link to="/todo">Todo</Link>
       </nav>
 
       {/* Routes */}
@@ -32,6 +34,7 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   );
