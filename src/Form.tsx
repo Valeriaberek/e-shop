@@ -4,7 +4,7 @@ import { useState } from "react"
 
 // - Faire le call API avec useEffect pour envoyer les données du form en POST 
 // - Faire une page de login 
-// - Mettre en place un système de session
+// - Mettre en place un système de
 
 function Form() {
     const [inputValues, setInputValues] = useState({
